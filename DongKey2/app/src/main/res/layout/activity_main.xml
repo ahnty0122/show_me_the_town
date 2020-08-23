@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tv_title"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/surface_view"
+        android:layout_width="331dp"
+        android:layout_height="297dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/dongkey" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="368dp"
+        android:layout_height="153dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:fontFamily="@font/noto_sans_bold"
+        android:text="당신의 동네를 찾아주는 열쇠,\n                     동 키"
+        android:textColor="#F13E311F"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
