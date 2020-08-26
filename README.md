@@ -39,7 +39,7 @@ for j in target2:
     arr.append(difference)
 '''
 *실행결과
-<img width="300" alt="model 실행결과" src="https://user-images.githubusercontent.com/61795757/91308604-818bae80-e7ea-11ea-8069-8ddd741f90d5.PNG">
+<img width="800" alt="model 실행결과" src="https://user-images.githubusercontent.com/61795757/91308604-818bae80-e7ea-11ea-8069-8ddd741f90d5.PNG">
 
 # 최종 어플 동키
 <img width="884" alt="img" src="https://user-images.githubusercontent.com/61795757/91309264-56ee2580-e7eb-11ea-8883-9fb7db6b6baf.png">
