@@ -19,7 +19,7 @@ Show Me The Town, DongKey
 
 ### 데이터처리 예시
 * 서울 교통 open api 이용
-'''
+'''python
 col = ['지하철', '버스' ,'버스ID']
 dic = {'지하철':subwaylist, '버스':buslist, '버스ID':busIDlist}
 data = pd.DataFrame(dic)
@@ -29,7 +29,7 @@ data
 
 ### 사용한 알고리즘
 * 입력한 항목의 중요도와 데이터 값의 차이에 입력한 항목의 중요도를 가중치로 두어 곱한 값을 합한 것이 가장 작은 top 5 동네 추천
-'''
+'''python
 #target2는 자치구의모든데이터
 #want는 내가 입력한 값
 for j in target2:
